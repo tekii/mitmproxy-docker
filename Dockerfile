@@ -34,5 +34,6 @@ EXPOSE 8080
 WORKDIR /
 
 ENV LANG en_US.UTF-8
+
 # Set default container command
-ENTRYPOINT /usr/local/bin/mitmproxy
+ENTRYPOINT ["/usr/local/bin/mitmproxy"]
